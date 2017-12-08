@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Robot Projects | Ke'Ondrae Mell</title>
+    <link href="Css/main.css" rel="stylesheet">
+    <link href="Css/popup.css" rel="stylesheet" type="text/css">
+    <script src="Js/jquery.min.js"></script>
+    <script src="Js/popup.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+         <nav>
+             <a href="index.html">Hey</a>
+             <a href="java.html">Java</a>
+             <a href="websites.html">Websites</a>
+             <a href="apps.html">Mobile Apps</a>
+             <a href="robots.html">Robots</a>
+             <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome To</h2>
+        <h1 class="glitch">Robot Projects</h1>
+    </main>
+    <div id="container">
+    <div class="photobanner">
+        <img data-popup-open="RobotsPopup1" class="first" id="myImg1" src="Images/Robots/3D_Printed_arm.png" alt="3d_Printed_Arm.png" width="300" height="200">
+        <img data-popup-open="RobotsPopup2" id="myImg2" src="Images/Robots/Arduino_Rover.png" alt="Arduino_Rover.png" width="300" height="200">
+        <img data-popup-open="RobotsPopup3" id="myImg3" src="Images/Robots/Arduino_Spider.png" alt="Arduino_Spider.png" width="300" height="200">
+        <img data-popup-open="RobotsPopup4" id="myImg4" src="Images/Robots/My_First_Tank.png" alt="My_First_Tank.png" width="300" height="200">
+        <img data-popup-open="RobotsPopup5" id="myImg5" src="Images/Robots/Vex_2015-2016.png" alt="Vex_2015-2016.png" width="300" height="200">
+        <img data-popup-open="RobotsPopup6" id="myImg6" src="Images/Robots/the_vision.png" alt="the_vision.png" width="300" height="200">
+    </div>
+        </div>
+
+
+         <!-- The Modals -->
+
+    <div class="popup" data-popup="RobotsPopup1">
+        <div class="popup-inner">
+            <h2 class="popup-title">3D Printed Robot Arm</h2>
+            <img class="popup-img" src="Images/Robots/3D_Printed_arm.png" id="img01">
+            <p class="caption"> This arm was completely 3D printed and used servos to move. My goal with this is to wire it up with buttons so that it could be played like a game and the user has to pick up a object and move it somewhere else. </p>
+            <a class="popup-close" data-popup-close="RobotsPopup1" href="#">x</a>
+        </div>
+    </div>
+
+    <div class="popup" data-popup="RobotsPopup2">
+        <div class="popup-inner">
+            <h2 class="popup-title">Arduino Rover</h2>
+            <img class="popup-img" src="Images/Robots/Arduino_Rover.png" id="img02">
+            <p class="caption">This was made from a kit sold at<a href="https://www.servocity.com/whippersnapper"> Servo City </a>I added some RGB LEDs, a GPS, claw, and two ultrasonics. This was my first <a href="https://www.arduino.cc/">Arduino</a> powered Robot.</p>
+            <a class="popup-close" data-popup-close="RobotsPopup2" href="#">x</a>
+        </div>
+    </div>
+
+    <div class="popup" data-popup="RobotsPopup3">
+        <div class="popup-inner">
+            <h2 class="popup-title">Arduino Spider</h2>
+            <img class="popup-img" src="Images/Robots/Arduino_Spider.png" id="img03">
+            <p class="caption">This is a spider made from 1/8" 6061 Aluminum. It used 18 servos, and servo controller board, arduino uno, arduino mega and a pix camera. Its controller by a PS2 controller.  </p>
+            <a class="popup-close" data-popup-close="RobotsPopup3" href="#">x</a>
+        </div>
+    </div>
+
+    <div class="popup" data-popup="RobotsPopup4">
+        <div class="popup-inner">
+            <h2 class="popup-title">Tank</h2>
+            <img class="popup-img" src="Images/Robots/My_First_Tank.png" id="img04">
+            <p class="caption">This is the first tank that I ever built, It is powered by an arduino uno and used a raspberry pi 3 to send commands over bluetooth, the raspberry pi is running android.</p>
+            <a class="popup-close" data-popup-close="RobotsPopup4" href="#">x</a>
+        </div>
+    </div>
+
+    <div class="popup" data-popup="RobotsPopup5">
+        <div class="popup-inner">
+            <h2 class="popup-title">Vex Robot</h2>
+            <img class="popup-img" src="Images/Robots/Vex_2015-2016.png" id="img05">
+            <p class="caption">This robot is from the 2015-2016 vex competition called nothing but net.</p><p class="caption"></a></p>
+            <a class="popup-close" data-popup-close="RobotsPopup5" href="#">x</a>
+        </div>
+    </div>
+
+    <div class="popup" data-popup="RobotsPopup6">
+        <div class="popup-inner">
+            <h2 class="popup-title">The Vision</h2>
+            <img class="popup-img" src="Images/Robots/the_vision.png" id="img06">
+            <p class="caption">I call this robot "This Vision". This robot is powered completely off of a raspberry pi 3. I'm running a program called <a href="http://opencv.org/">openCV</a> and right now it sees and follow the color green.</p>
+            <a class="popup-close" data-popup-close="RobotsPopup6" href="#">x</a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>  
