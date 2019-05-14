@@ -1,71 +1,980 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8" />
-	<title>Ke'Ondrae Mell</title>
-    <link rel="icon" href="Images/Other/favicon.ico" type="image/icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="Images/Other/favicon.ico" type="image/icon">
     <link href="Css/main.css" rel="stylesheet">
-    <link href="Css/style.css" rel="stylesheet">
-    <link href="Css/graphs.css" rel="stylesheet">
-
+    <link href="Css/toTop.css" rel="stylesheet">
+    <link href="Css/media.css" rel="stylesheet">
+    <title>Ke'Ondrae Mell</title>
     <script src="Js/jquery.min.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js'></script>
-    <script  src="Js/glitch.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+<style>
+ 
+    
+</style>
 </head>
-
 <body>
-	<header>
-        <nav>
-            <a class="active" href="index.html">Hey</a>
-            <a href="java.html">Java</a>
-            <a href="websites.html">Websites</a>
-            <a href="apps.html">Mobile Apps</a>
-            <a href="robots.html">Robots</a>
-            <a href="about.html">About</a>
-        </nav>
-    </header>
+
+<a href="javascript:void(0);" id="rocketmeluncur" class="showrocket" ><i></i></a>
     
-    <main>
-        <h2>My Name Is:</h2>
-        <h1 class="glitch">Ke'Ondrae Mell</h1> 
-         <!--<canvas class="glitch" id="stage"></canvas>-->
-    </main>
+<div class="bgimg-1">
+   
+  <div class="caption">
+      <h1>Hello, My name is</h1>
+  <span class="border">Ke'Ondrae Mell</span>
+    <h1>Check out what I am doing</h1>
+  <ul class="topnav" id="myTopnav">
+    <li><a href="#programming">Programming</a></li>
+<!--    <li><a href="#apps">Mobile Apps</a></li>-->
+    <li><a href="#websites">Websites</a></li>
+    <li><a href="#robotics">Robotics</a></li>
+    <li><a href="#embedded_Systems">Embedded Systems</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  </div>
+</div>
+
+<main>
+<div id="programming" class="contentDiv">
+      <h3 style="text-align:center;">Programming</h3>
+    
+    <img  id="Data_StructuresC" src="Images/Programming/Data_StructuresC++.jpg" height="250" width="250">
+    <img  id="Multi-threadingC" src="Images/Programming/Multi-threadingC++.jpg" height="250" width="250">
+    <img  id="newIDEForAtmel" src="Images/Programming/newIDEForAtmel.jpg" height="250" width="250">
+    <img  id="tictactoeVB" src="Images/Programming/tictactoeVB.jpg" height="250" width="250">
+    <img  id="TravelExpenceVB" src="Images/Programming/TravelExpenceVB.jpg" height="250" width="250">
 
 
-    <div class="skillGraphs">
+    <div class="proImg" id="Data_StructuresCDiv">
+        <div class="hide">
+        <p>Data Structures In C++</p>
         
-        <section class="frontend">
-            <div class="multi-graph">Frontend
-                <div data-name="javaScript" class=" graph javaScript"></div>
-                <div data-name="CSS" class="graph css"> </div>
-                <div data-name="HTML" class="graph html"></div>
-            </div>
-        </section>
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-        <section class="backend">
-            <div class="multi-graph">Backend
-                <div data-name="MySQL" class="graph mysql"> </div>
-                <div data-name="PHP" class="graph php"></div>
-            </div>
-        </section>
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
   
-        <section class="desktop">
-            <div class="multi-graph">Desktop
-                <div data-name="C++" class="graph c++"> </div>
-                <div data-name="Python" class="graph python"> </div>
-                <div data-name="Java" class="graph java"></div>
-            </div>
-    
-        </section>
+    <div class="proImg" id="Multi-threadingCDiv">
+        <div class="hide">
+        <p>Multi-Threading in C++</p>
+        
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-        <section class="robots">
-            <div class="multi-graph">Robots
-                <div data-name="Building" class="graph robotBuilding"> </div>
-                <div data-name="Design" class="graph robotDesign"> </div>
-                <div data-name="Programming" class="graph robotProgramming"></div>
-            </div>
-        </section>
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
     </div>
     
+    <div class="proImg" id="newIDEForAtmelDiv">
+        <div class="hide">
+        <p>New IDE for Atmel in java</p>
+        
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+
+    <div class="proImg" id="tictactoeVBDiv">
+        <div class="hide">
+            <p>Tic Tac Tie In Visual Basic</p>
+
+            <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+            <pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+
+    <div class="proImg" id="TravelExpenceVBDiv">
+        <div class="hide">
+            <p>Travel Expense Calculator in Visual Basic</p>
+
+            <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+            <pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+    
+</div>
+
+<!--<div id="#apps" class="bgimg-2">
+  <div class="caption">
+ <span class="border">MOBILE APPS</span>
+  </div>
+</div>   
+
+<div  style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <img  id="JavaAtm" src="Images/Apps/Timer_IOS.jpg" height="250" width="250">
+    <img  id="JavaAtm" src="Images/Apps/Times_Table_Android.jpg" height="250" width="250">
+    <img  id="JavaAtm" src="Images/Apps/Times_Table_IOS.jpg" height="250" width="250">
+    <img  id="JavaAtm" src="Images/Apps/Times_Table_Android.jpg" height="250" width="250">
+    <img  id="JavaAtm" src="Images/Java/ATM.png" height="250" width="250">
+
+    
+    <div class="proImg test1">
+       
+        <div class="hide" >
+        <p>test</p>
+        
+        <pre class="html"><code>
+            &lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+            &lt;!doctype html&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+                &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot;&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        
+        &lt;/body&gt;
+        &lt;/html&gt;
+        &lt;/code&gt;&lt;/pre&gt;
+        </code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+  
+    <div class="proImg test2">
+        
+        <div class="hide">
+        <p>test</p>
+        
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+    
+    <div class="proImg" id="JavaAtms">
+        <div class="hide">
+        <p>test</p>
+        
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+  
+    <div class="proImg" id="JavaAtmmm">
+        <div class="hide">
+        <p>test</p>
+        
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+    
+    <div class="proImg" id="JavaAtmmm">
+        <div class="hide">
+        <p>test</p>
+        
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+    
+</div>-->
+
+<div  id="websites" class="bgimg-3">
+  <div class="caption">
+  <span class="border">WEBSITES</span>
+  </div>
+</div>
+
+<div class="contentDiv">
+  
+    <img  id="autopilotas" src="Images/Websites/autopilotas.jpg" height="250" width="250">
+    <img  id="FRC_Scouting_Database" src="Images/Websites/FRC_Scouting_Database.jpg" height="250" width="250">
+    <img  id="hibachione" src="Images/Websites/hibachione.jpg" height="250" width="250">
+    <img  id="newwongs" src="Images/Websites/newwongs.jpg" height="250" width="250">
+    <img  id="YTA_Student_Database" src="Images/Websites/YTA_Student_Database.jpg" height="250" width="250">
+
+    
+    <div class="proImg" id="autopilotasDiv">
+        <div class="hide">
+        <p>test</p>
+        
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+  
+    <div class="proImg" id="FRC_Scouting_DatabaseDiv">
+        <div class="hide">
+        <p>test</p>
+        
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+    
+    <div class="proImg" id="hibachioneDiv">
+        <div class="hide">
+        <p>test</p>
+        
+        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+
+    <div class="proImg" id="newwongsDiv">
+        <div class="hide">
+            <p>test</p>
+
+            <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+            <pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+
+    <div class="proImg" id="YTA_Student_DatabaseDiv">
+        <div class="hide">
+            <p>test</p>
+
+            <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+            <pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>
+        </div>
+    </div>
+    
+</div>
+
+<div id="robotics" class="bgimg-4">
+  <div class="caption">
+  <span class="border">ROBOTICS</span>
+  </div>
+</div>
+
+<div class="contentDiv">
+    <img  id="20151207_133741" src="Images/Robotics/20151207_133741.jpg" height="250" width="250">
+    <img  id="20151207_133839" src="Images/Robotics/20151207_133839.jpg" height="250" width="250">
+    <img  id="File_005" src="Images/Robotics/File_005.jpeg" height="250" width="250">
+    <img  id="IMG_1311" src="Images/Robotics/IMG_1311.jpeg" height="250" width="250">
+    <img  id="IMG_1436" src="Images/Robotics/IMG_1436.jpeg" height="250" width="250">
+    
+    <div class="proImg" id="20151207_133741Div">
+        <div class="hide">
+        <p>Rover</p>
+        <p class="caption">This was made from a kit sold at<a href="https://www.servocity.com/whippersnapper"> Servo City </a>I added some RGB LEDs, a GPS, claw, and two ultrasonics. This was my first <a href="https://www.arduino.cc/">Arduino</a> powered Robot.</p>
+
+          <!--  <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>-->
+
+        </div>
+    </div>
+  
+    <div class="proImg" id="20151207_133839Div">
+        <div class="hide">
+        <p>Vex</p>
+        <p>This robot is from the 2015-2016 vex competition called nothing but net.</p>
+        
+        <!--        <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>-->
+
+        </div>
+    </div>
+    
+    <div class="proImg" id="File_005Div">
+        <div class="hide">
+        <p>Arduino Spider</p>
+        <p>This is a spider made from 1/8" 6061 Aluminum. It used 18 servos, and servo controller board, arduino uno, arduino mega and a pix camera. Its controller by a PS2 controller.</p>
+
+        <!--<pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>-->
+
+        </div>
+    </div>
+
+    <div class="proImg" id="IMG_1311Div">
+        <div class="hide">
+            <p>Swarm Robot V1</p>
+            <p>This will be a swarm of IoT robots, that will be connected to an IoT house and do different things around the house based on that attachment of the robots.</p>
+
+        <!--           <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+            <pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>-->
+
+        </div>
+    </div>
+
+    <div class="proImg" id="IMG_1436Div">
+        <div class="hide">
+            <p>4 Bit Computer robot</p>
+            <p>This is a robot that uses a 4-bit computer to decode the instructions that were put into memory</p>
+
+ <!--           <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+            <pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>-->
+
+        </div>
+    </div>
+    
+</div>    
+    
+<div id="embedded_Systems" class="bgimg-5">
+  <div class="caption">
+  <span class="border" >EMBEDDED SYSTEMS</span>
+  </div>
+</div>
+
+<div class="contentDiv">
+    <img  id="mBed" src="Images/Embedded_Systems/mBed.jpg" height="250" width="250">
+    <img  id="Atmega328_board" src="Images/Embedded_Systems/Atmega328_board.jpeg" height="250" width="250">
+    <img  id="For_Fun_Schematic" src="Images/Embedded_Systems/For_Fun_Schematic.jpg" height="250" width="250">
+    <img  id="swarmV1" src="Images/Embedded_Systems/swarmV1.jpeg" height="250" width="250">
+    
+    <div class="proImg" id="mBedDiv">
+        <div class="hide">
+        <p>mBed</p>
+        <p>This is an Arm based platform and I was using it to make a simon game</p>
+        
+    <!--    <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>-->
+
+        </div>
+    </div>
+  
+    <div class="proImg" id="Atmega328_boardDiv">
+        <div class="hide">
+        <p>Atmega 328 Board</p>
+        <p>I designed a custom PCB board for the Atmega 328 microcontroller so i can do my intro to microcontroller labs</p>
+        
+  <!--      <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+<pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>-->
+
+        </div>
+    </div>
+    
+    <div class="proImg" id="For_Fun_SchematicDiv">
+    <div class="hide">
+        <p>Frackinstine board</p>
+        <p>This board is using 3 microcontrollers to simulate Multithreading </p>
+
+   <!--     <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+        <pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>-->
+
+    </div>
+</div>
+
+    <div class="proImg" id="swarmV1Div">
+        <div class="hide">
+            <p>Swarmn robot v1 PCB</p>
+        <p>This is the PCB that controls the swarm v1 robot</p>
+ <!--          <pre class="html"><code>
+&lt;pre class=&quot;html&quot;&gt;&lt;code&gt;
+  &lt;!doctype html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+
+            <pre class="css"><code>
+.css:before { content: "CSS";  }
+.html:before { content: "HTML"; }
+.javascript:before { content: "JavaScript"; }
+.jquery:before { content: "jQuery"; }
+.php:before { content: "PHP"; }
+.scss:before { content: "SCSS"; }
+.sublime-snippet:before { content: "Sublime Snippet"; }
+</code></pre>-->
+
+        </div>
+    </div>
+    
+</div>        
+    
+<div id="about" class="bgimg-6">
+  <div class="caption">
+  <span class="border">About</span>
+  </div>
+</div>
+
+<div class="contentDiv">
+  <p>Robots
+      <br>
+      Robots
+      <br>
+      Robots
+      <br>
+      Robots
+      <br>
+      Robots
+      <br>
+    </p>
+</div> 
+    
+</main>    
+  
+    
+<script>
+    $(document).ready(function(){
+
+        let lastOpened = null;
+
+
+        $('img').click(function(){
+
+            const id = $(this).attr('id');
+            const divID = '#' + id + 'Div';
+
+
+            $('.hide').hide();
+
+            console.log(lastOpened)
+           console.log(divID);
+
+             if(divID === lastOpened){
+
+                 $(divID).find('.hide').hide('slide', {direction: 'up'}, 500);
+                 lastOpened = null;
+             }else{
+
+                 $(divID).find('.hide').slideToggle();
+                 lastOpened = divID;
+             }
+
+        });
+
+
+        $('#rocketmeluncur').click(function(){
+        $("html, body").animate({ scrollTop: '0px',display:'none'},{
+                duration: 600,  
+                easing: 'linear'
+            });
+    
+        const self = this;
+            this.className += ' '+"launchrocket";
+            setTimeout(function(){
+            self.className = 'showrocket';
+            },800)
+        });
+        
+        $(window).scroll(function(){
+            if($(window).scrollTop()<50){
+            $('#rocketmeluncur').slideUp(500);
+        }else{
+            $('#rocketmeluncur').slideDown(500);
+        }
+        const ftrocketmeluncur = $("#ft")[0] ? $("#ft")[0] : $(document.body)[0];
+        const scrolltoprocketmeluncur = $('rocketmeluncur');
+        const viewPortHeightrocketmeluncur = parseInt(document.documentElement.clientHeight);
+        const scrollHeightrocketmeluncur = parseInt(document.body.getBoundingClientRect().top);
+        const basewrocketmeluncur = parseInt(ftrocketmeluncur.clientWidth);
+        const swrocketmeluncur = scrolltoprocketmeluncur.clientWidth;
+            if (basewrocketmeluncur < 1000) {
+                //var leftrocketmeluncur = parseInt(fetchOffset(ftrocketmeluncur)['left']);
+                leftrocketmeluncur = leftrocketmeluncur < swrocketmeluncur ? leftrocketmeluncur * 2 - swrocketmeluncur : leftrocketmeluncur;
+                scrolltoprocketmeluncur.style.left = ( basewrocketmeluncur + leftrocketmeluncur ) + 'px';
+            } else {
+                //scrolltoprocketmeluncur.style.left = 'auto';
+                //scrolltoprocketmeluncur.style.right = '10px';
+            }
+        });
+        
+
+        //smooth scrolling
+  $('a[href^="#"]').on('click',function (e) {
+    e.preventDefault();
+    var target = this.hash,
+    $target = $(target);
+    $('html, body').stop().animate({
+    'scrollTop': $target.offset().top -150}, 900, 'swing', function () {
+    window.location.hash = target;});
+  });
+                
+        
+    });
+    
+</script>    
 </body>
-</html>  
+</html>
